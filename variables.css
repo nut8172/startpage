@@ -1,20 +1,20 @@
 :root {
   /** colors */
-  --color-name: custom;
-  --color-bg-shade: #000000;
-  --color-bg-base: #000000;
-  --color-bg-surface: #000000;
-  --color-bg-highlight: #000000;
-  --color-fg-shade: #969696;
-  --color-fg-base: #BBBBBB;
-  --color-fg-surface: #E0E0E0;
-  --color-fg-highlight: #FFFFFF;
-  --color-primary-bg: #777777;
-  --color-primary-base: #EEEEEE;
-  --color-primary-fg: #FFFFFF;
-  --color-secondary-bg: #252528;
-  --color-secondary-base: #494950;
-  --color-secondary-fg: #6E6E78;
+  --color-name: dracula;
+  --color-bg-shade: #20222B;
+  --color-bg-base: #282A36;
+  --color-bg-surface: #303241;
+  --color-bg-highlight: #383B4C;
+  --color-fg-shade: #90908D;
+  --color-fg-base: #B3B3B1;
+  --color-fg-surface: #D6D6D5;
+  --color-fg-highlight: #F9F9F9;
+  --color-primary-bg: #970056;
+  --color-primary-base: #FF2EA6;
+  --color-primary-fg: #FFC4E6;
+  --color-secondary-bg: #048023;
+  --color-secondary-base: #10F84B;
+  --color-secondary-fg: #90FCAC;
   --color-palette-red: #E06C75;
   --color-palette-green: #98C379;
   --color-palette-yellow: #E5C07B;
@@ -29,9 +29,9 @@
   --display-image: block;
 
   /** surface */
-  --surface-maxWidth: 1350px;
-  --surface-shadow: 0px 0px 0px #777777;
-  --surface-borderRadius: 64px;
+  --surface-maxWidth: 1150px;
+  --surface-shadow: 3px 3px 4px #970056;
+  --surface-borderRadius: 0px;
 
   /** spacing */
   --space-smallest: 0.125rem;
@@ -42,5 +42,5 @@
 
   /** others */
   --picture-size: 300px;
-  --group-count: 5;
+  --group-count: 4;
 }
